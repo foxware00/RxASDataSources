@@ -30,7 +30,7 @@
 
 - iOS 9.0+
 - Xcode 10.1+
-- RxSwift 5.0 & Texture 2.8
+- RxSwift 6.0 & Texture 3.0
 
 ## Installation
 
