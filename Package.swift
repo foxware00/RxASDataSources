@@ -16,7 +16,9 @@ let package = Package(
     .package(url: "https://github.com/shimastripe/Texture.git", .upToNextMajor(from: "3.1.1"))
   ],
   targets: [
-    .target(name: "RxASDataSources", dependencies: ["Differentiator", "RxSwift", "RxCocoa"]),
+    .target(name: "RxASDataSources", 
+            path: "Sources/**/*.swift,
+            dependencies: ["Differentiator", "RxSwift", "RxCocoa"]),
     .target(name: "Differentiator"),
     .testTarget(name: "RxASDataSourcesTests", dependencies: ["RxASDataSources"])
   ],
