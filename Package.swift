@@ -17,7 +17,7 @@ let package = Package(
   ],
   targets: [
     .target(name: "RxASDataSources", 
-            path: "Sources/**/*.swift,
+            path: "Sources/DataSources",
             dependencies: ["Differentiator", "RxSwift", "RxCocoa"]),
     .target(name: "Differentiator"),
     .testTarget(name: "RxASDataSourcesTests", dependencies: ["RxASDataSources"])
