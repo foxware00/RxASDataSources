@@ -21,7 +21,7 @@ let package = Package(
               .product(name: "Differentiator", package: "RxDataSources"),
               .product(name: "RxSwift", package: "RxSwift"),
               .product(name: "RxCocoa", package: "RxSwift"),
-              "Texture"
+              .product(name: "AsyncDisplayKit", package: "Texture")
             ]),
     .testTarget(name: "RxASDataSourcesTests", dependencies: ["RxASDataSources"])
   ],
