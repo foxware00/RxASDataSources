@@ -17,8 +17,8 @@ let package = Package(
   ],
   targets: [
     .target(name: "RxASDataSources", 
-            path: "Sources/DataSources",
-            dependencies: ["Differentiator", "RxSwift", "RxCocoa"]),
+            dependencies: ["Differentiator", "RxSwift", "RxCocoa"],
+            path: "Sources/DataSources"),
     .target(name: "Differentiator"),
     .testTarget(name: "RxASDataSourcesTests", dependencies: ["RxASDataSources"])
   ],
