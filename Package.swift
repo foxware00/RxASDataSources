@@ -17,9 +17,9 @@ let package = Package(
   targets: [
     .target(name: "RxASDataSources",
             dependencies: [
-              .product(name: "RxSwift", package: "Differentiator"),
+              .product(name: "Differentiator", package: "RxSwift"),
               .product(name: "RxSwift", package: "RxSwift"),
-              .product(name: "RxSwift", package: "RxCocoa"),
+              .product(name: "RxCocoa", package: "RxSwift"),
               "Texture"
             ]),
     .testTarget(name: "RxASDataSourcesTests", dependencies: ["RxASDataSources"])
