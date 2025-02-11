@@ -16,8 +16,7 @@ let package = Package(
   ],
   targets: [
     .target(name: "RxASDataSources", 
-            dependencies: ["Differentiator", "RxSwift", "RxCocoa", "Texture"],
-            sources: ["Sources/DataSources"]),
+            dependencies: ["Differentiator", "RxSwift", "RxCocoa", "Texture"]),
     .testTarget(name: "RxASDataSourcesTests", dependencies: ["RxASDataSources"])
   ],
   swiftLanguageVersions: [.v5]
