@@ -12,7 +12,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
-    .package(url: "https://github.com/foxware00/Texture.git", .revision("0c4920f2ea533d5e6bd0cb558bdddbe6919f2527")),
+    .package(url: "https://github.com/foxware00/Texture.git", .revision("8e51dc3da18330087716ee19e6242cbd26bb6314")),
     .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.0"))
   ],
   targets: [
